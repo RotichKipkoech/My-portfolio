@@ -49,3 +49,9 @@ bio-paragraph {
     font-size: 25px;
     
 }
+.column-about {
+    float: left;
+    width: 33.33%;
+    height: 400px; 
+    font-size: 55vw;
+  }
