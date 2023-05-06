@@ -1,5 +1,5 @@
 body{
-    background-color: antiquewhite;
+    background-color:greenyellow;
 }
 .image{
     width: 300px;
@@ -7,12 +7,12 @@ body{
     margin-top: 100px;
     margin-inline:100px;
     border-radius: 150%;
-    background-color: blue;
+    background-color: rgb(114, 189, 85);
     background-repeat: no-repeat;
 
 }
 p{
-    color: green;
+    color: black;
     font-family: sans-serif;
     font-size: medium;
 }
@@ -21,6 +21,12 @@ p{
 .column {
     float: left;
     width: 50%;
-
+    background-color: green;
     
+}
+.row {
+    background-color: black;
+}
+table {
+    padding-top: 32px;
 }
