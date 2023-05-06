@@ -33,3 +33,25 @@ table {
 tr{
     font-size: large;
 }
+
+.row2 {
+    text-align: center;
+}
+
+h2.bio-header {
+    font-size: 40px;
+    top: -50px;
+}
+
+bio-paragraph {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    
+}
+.column-about {
+    float: left;
+    width: 33.33%;
+    height: 400px; 
+    font-size: 55vw;
+  }
