@@ -55,3 +55,18 @@ bio-paragraph {
     height: 400px; 
     font-size: 55vw;
   }
+  .contact-column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    text-align: center;
+
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
