@@ -1,5 +1,5 @@
 body{
-    background-color:greenyellow;
+    background-color:rgb(245, 252, 236);
 }
 .image{
     width: 300px;
@@ -7,9 +7,9 @@ body{
     margin-top: 100px;
     margin-inline:100px;
     border-radius: 150%;
-    background-color: rgb(114, 189, 85);
+    background-color: rgb(212, 241, 201);
     background-repeat: no-repeat;
-
+    margin-left: 300px;
 }
 p{
     color: black;
@@ -21,7 +21,7 @@ p{
 .column {
     float: left;
     width: 50%;
-    background-color: green;
+    background-color: rgb(245, 252, 236);
     
 }
 
@@ -36,11 +36,15 @@ tr{
 
 .row2 {
     text-align: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+
 }
 
 h2.bio-header {
     font-size: 40px;
     top: -50px;
+
 }
 
 bio-paragraph {
@@ -54,6 +58,7 @@ bio-paragraph {
     width: 33.33%;
     height: 400px; 
     font-size: 55vw;
+    
   }
   .contact-column {
     float: left;
@@ -77,3 +82,6 @@ bio-paragraph {
     margin-top: 6px;
     margin-bottom: 16px;
   }
+li{
+    display: inline;
+}
