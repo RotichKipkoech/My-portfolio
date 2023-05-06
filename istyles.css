@@ -24,9 +24,12 @@ p{
     background-color: green;
     
 }
-.row {
-    background-color: black;
-}
+
 table {
     padding-top: 32px;
+    color: black;
+
+}
+tr{
+    font-size: large;
 }
