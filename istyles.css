@@ -1,0 +1,20 @@
+body{
+    background-color: antiquewhite;
+}
+.image{
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    border-radius: 150%;
+    background-image: url(KIM_6583.png);
+    background-color: blue;
+
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+
+    
+}
