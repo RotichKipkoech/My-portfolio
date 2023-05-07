@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(245, 252, 236);
+    background-color:rgb(195, 245, 131);
 }
 .image{
     width: 300px;
@@ -35,8 +35,8 @@ tr{
 }
 
 .row2 {
-    text-align: center;
-    padding: 15px;
+    
+    
     border: 1px solid #ccc;
 
 }
@@ -55,9 +55,9 @@ bio-paragraph {
 }
 .column-about {
     float: left;
-    width: 33.33%;
+    width: 50%;
     height: 400px; 
-    font-size: 55vw;
+
     
   }
   .contact-column {
@@ -65,13 +65,14 @@ bio-paragraph {
     width: 50%;
     margin-top: 6px;
     text-align: center;
+    margin-left: 400px;
 
   }
 
   input {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     margin-top: 6px;
     margin-bottom: 16px;
   }
@@ -82,6 +83,8 @@ bio-paragraph {
     margin-top: 6px;
     margin-bottom: 16px;
   }
-li{
-    display: inline;
-}
+  .column-test{
+    float: left;
+    width: 50%;
+  }
+
