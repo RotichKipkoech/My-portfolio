@@ -1,5 +1,12 @@
 body{
-    background-color:rgb(195, 245, 131);
+    background-color: rgb(206, 193, 169);
+}
+.row {
+    height: 450px;
+    background-color: rgb(243, 245, 240);
+    width: 100%;
+
+
 }
 .image{
     width: 300px;
@@ -10,6 +17,7 @@ body{
     background-color: rgb(212, 241, 201);
     background-repeat: no-repeat;
     margin-left: 300px;
+    
 }
 p{
     color: black;
@@ -21,7 +29,8 @@ p{
 .column {
     float: left;
     width: 50%;
-    background-color: rgb(245, 252, 236);
+    background-color: rgb(243, 245, 240);
+    
     
 }
 
@@ -54,16 +63,31 @@ bio-paragraph {
     
 }
 .column-about {
-    float: left;
-    width: 50%;
     height: 400px; 
-
+    background-color: rgb(221, 245, 231);
+    text-align: center;
+    padding-left: 100px;
     
+  }
+  .column-name h1 {
+    top: 100px;
+    padding-top: 150px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  li {
+    list-style: none;
+    display: inline;
+    padding: 50px;
+    margin-left: 300px;
+    font-size: 25px;
+    font-weight: bold;
   }
   .contact-column {
     float: left;
     width: 50%;
-    margin-top: 6px;
+    margin-top: px;
     text-align: center;
     margin-left: 400px;
 
@@ -88,3 +112,55 @@ bio-paragraph {
     width: 50%;
   }
 
+  .skills-row {
+    text-align: center;
+    background-color: rgb(243, 245, 240);
+    height: 500px;
+    padding-bottom: 50px;
+
+
+  }
+
+  .row-head {
+    color: rgb(5, 4, 2);
+    margin-bottom: 30px;
+    font-size: 30px;
+    padding-left: 10px;
+  }
+  .column-skills  {
+    width: 33.33%;
+    float: left;
+    height: 500px;
+    
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+  }
+.column-skills h4 {
+  text-align: center;
+  margin-left: 280px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.attributes {
+  font-size: 20px;
+}
+.skills-logo {
+  display: inline;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: -50px;
+}
+.column-about li {
+  display: inline;
+  margin-right: 50px;
+  padding-left: 100px;
+  float: left;
+}
+.details {
+  width: 100px;
+  height: 100px;
+margin-left: 100px;
+}
